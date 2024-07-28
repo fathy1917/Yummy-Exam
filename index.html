@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="loading d-none" id="load">
+        <span class="loader"></span>
+    </div>   
+
+    <div id="test" class="side-nav position-fixed vh-100 d-flex">
+        <div class="p-4 nav-content d-flex flex-column justify-content-between vh-100 bg-black">
+            <div class="nav-link mt-3 h-15">
+                <ul class="p-0 d-flex justify-content-between flex-column h-15 overflow-hidden">
+                    <li id="search" class="position-relative text-white">Search</li>
+                    <li id="category" class="position-relative text-white">Categories</li>
+                    <li id="area" class="position-relative text-white">Area</li>
+                    <li id="ingredients" class="position-relative text-white">Ingredients</li>
+                    <li id="contact" class="position-relative text-white">Contact Us</li>
+                </ul>
+            </div>
+            <div class="nav-footer">
+                <div class="icons text-white">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <p class="text-white m-0">Copyright Â© 2019 All Rights</p>
+                <span class="text-white">Reserved.</span>
+            </div>
+        </div>
+        <div class="nav-header bg-white d-flex flex-column justify-content-between text-center p-2 py-4 ">
+            <img src="images/logo.png" alt="logo" width="50">
+            <i class="fa-solid open-close-icon fa-align-justify fa-2x" id="nav-icon"></i>
+            <!-- <i class="fa-solid open-close-icon fa-2x fa-x"></i> -->
+            <div>
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="container">
+            <div class="row py-5" id="myRow">
+                
+            </div>
+            <div class="row" id="rowSearch">
+
+            </div>
+        </div>
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
